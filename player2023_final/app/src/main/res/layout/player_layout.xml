@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/player_bg"
+    android:orientation="horizontal"
+    android:padding="@dimen/playBtnPadding">
+
+    <ImageView
+        android:id="@+id/img_ic_prev"
+        style="@style/btn_cus"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/prev" />
+
+    <ImageView
+        android:id="@+id/img_ic_play"
+        style="@style/btn_cus"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/play" />
+
+    <ImageView
+        android:id="@+id/img_ic_pause"
+        style="@style/btn_cus"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/pause" />
+
+    <ImageView
+        android:id="@+id/img_ic_stop"
+        style="@style/btn_cus"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/stop" />
+
+    <ImageView
+        android:id="@+id/img_ic_next"
+        style="@style/btn_cus"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/next" />
+
+</LinearLayout>

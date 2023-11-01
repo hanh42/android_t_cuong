@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".manhinhchinh_activity">
+    <!-- body-->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <!--Img_btn-->
+    <tdc.edu.player2023.player.Player
+        android:id="@+id/player_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </tdc.edu.player2023.player.Player>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

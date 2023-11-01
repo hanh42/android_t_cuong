@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1355" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/drawable/customize_btn_add_cart_screen.xml" value="0.2305" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/drawable/customize_btn_buy_home_screen.xml" value="0.2185" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/drawable/customize_btn_buy_payment_screen.xml" value="0.2185" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/drawable/customize_btn_cart_screen.xml" value="0.2305" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/drawable/customize_delete_btn_cart_screen.xml" value="0.2" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/drawable/customize_edt_payment_screen.xml" value="0.2185" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/drawable/customize_item.xml" value="0.176" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/drawable/customize_linearlayout_detail_screen.xml" value="0.2" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/drawable/customize_shadown_btn.xml" value="0.2" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/drawable/home_layout_item_menu.xml" value="0.104" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.232" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1925" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/drawable/notification_layout_item.xml" value="0.2185" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/activity_detail_food_layout.xml" value="0.264" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/cart_layout.xml" value="0.264" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/cart_layout_item.xml" value="0.264" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/detail_layout.xml" value="0.264" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/detail_layout_item.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/home_layout.xml" value="0.264" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/home_layout_category_item.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/home_layout_menu_item.xml" value="0.264" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/introduce_layout.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/introduce_page2.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/introducepage_1.xml" value="0.264" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/notification_layout.xml" value="0.264" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/notification_layout_item.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/payment_layout.xml" value="0.264" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/picket_date_item.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/search_layout_item1.xml" value="0.16" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/search_layout_item2.xml" value="0.18974358974358974" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/search_layout_item3.xml" value="0.23125" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/seartch_layout.xml" value="0.264" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/layout/wheather_forecast_item.xml" value="0.4" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/menu/search_menu.xml" value="0.264" />
+        <entry key="..\:/AndroidContainer/WhetherForecast/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

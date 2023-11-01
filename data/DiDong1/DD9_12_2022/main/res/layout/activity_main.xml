@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/edt_textSize">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="bottom">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ho va ten"
+                android:textSize="@dimen/edt_textSize"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bang cap"
+                android:textSize="@dimen/edt_textSize"
+                />
+
+            <RadioButton
+                android:id="@+id/rd_TrungCap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trung cap"/>
+
+            <RadioButton
+                android:id="@+id/rd_Caodang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cao dang"/>
+
+            <RadioButton
+                android:id="@+id/rd_Daihoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dai hoc"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="So thich"
+                    android:textSize="@dimen/edt_textSize"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Doc sach"
+                        android:textSize="@dimen/edt_textSize"/>
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Du lich"
+                        android:textSize="@dimen/edt_textSize"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/edt_so_thich_khac"
+                        android:textSize="@dimen/edt_textSize"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_Them"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/btn_backgroudColor"
+            android:text="@string/btn_them"
+            android:textAllCaps="false"
+            android:textSize="@dimen/edt_textSize"
+            android:textStyle="bold"
+            android:layout_marginRight="@dimen/edt_textSize"/>
+
+        <Button
+            android:id="@+id/btn_Thoat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/btn_backgroudColor"
+            android:text="@string/btn_thoat"
+            android:textAllCaps="false"
+            android:textSize="@dimen/edt_textSize"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</LinearLayout>

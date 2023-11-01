@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:gravity="bottom">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/username"
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edtUsernameHint"
+                android:maxLines="1"
+                android:textSize="@dimen/textSize"
+                android:inputType="text"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/edtPasswordHint"
+                android:textSize="@dimen/textSize"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnLogin"
+            android:textSize="@dimen/textSize"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_backgroup"
+            android:paddingLeft="@dimen/btnPadding"
+            android:layout_marginRight="@dimen/btnMargin"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnCancel"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_backgroup"
+            android:paddingRight="@dimen/btnPadding"
+            android:layout_marginRight="@dimen/btnMargin"
+            android:layout_marginLeft="@dimen/btnMargin"
+            />
+    </LinearLayout>
+</LinearLayout>

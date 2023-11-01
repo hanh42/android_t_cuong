@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">TracNghiem2022</string>
+    <string name="btnLeft"><![CDATA[<]]></string>
+    <string name="btnRight"><![CDATA[>]]></string>
+    <string name="btnCenter">Tinh Diem</string>
+    <string name="lua_chon_1">Lua chon 1</string>
+    <string name="btn_tog_on">Dung</string>
+    <string name="btn_tog_off">Sai</string>
+    <string name="lua_chon_2">Lua chon 2</string>
+    <string name="lua_chon_3">Lua chon 3</string>
+    <string name="lua_chon_4">Lua chon 4</string>
+    <string name="txt_trac_nghiem_2022">Trac Nghiem 2022</string>
+    <string name="title_Cau2">Cau 2</string>
+    <string name="title_Cau3">Cau 3</string>
+    <string name="title_Cau4">Cau 4</string>
+    <string name="title_Cau5">Cau 5</string>
+    <string name="title_kq">Ket qua</string>
+    <string name="title_Cau1">Cau 1</string>
+
+    <string name="drawerOpen">Open</string>
+    <string name="drawerClose">Close</string>
+    <string-array name="sprinner_default">
+        <item>gia tri 1</item>
+        <item>gia tri 2</item>
+        <item>gia tri 3</item>
+        <item>gia tri 4</item>
+    </string-array>
+    <string-array name="sprinner_default_nav">
+        <item>gia tri 1</item>
+        <item>gia tri 2</item>
+        <item>gia tri 3</item>
+        <item>gia tri 4</item>
+    </string-array>
+
+</resources>

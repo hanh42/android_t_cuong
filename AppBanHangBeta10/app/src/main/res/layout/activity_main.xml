@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff4b3a">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:src="@drawable/ic_ellipse_1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:src="@drawable/logo"
+            app:layout_constraintBottom_toBottomOf="@+id/img1"
+            app:layout_constraintEnd_toEndOf="@+id/img1"
+            app:layout_constraintStart_toStartOf="@+id/img1"
+            app:layout_constraintTop_toTopOf="@+id/img1" />
+
+        <TextView
+            android:id="@+id/Txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25ssp"
+            android:text="Food for"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/img1" />
+
+
+        <TextView
+            android:id="@+id/Txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25ssp"
+            android:text="Food for"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_30ssp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/Txt1" />
+
+
+        <RelativeLayout
+            android:id="@+id/relativelayout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Txt2">
+
+
+            <ImageView
+                android:id="@+id/face_2"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_300sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_toStartOf="@id/face_1"
+                android:src="@drawable/face2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/relativelayout_id"
+                tools:ignore="NotSibling" />
+
+            <ImageView
+                android:id="@+id/face_1"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_300sdp"
+                android:src="@drawable/face1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/relativelayout_id"
+                tools:ignore="MissingConstraints,NotSibling" />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/rec_left"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_310sdp"
+            android:rotation="6"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_rectangle_5"
+            android:translationY="@dimen/_290sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/rec_right"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_250sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_rectangle_3"
+            android:translationY="@dimen/_320sdp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customize_btn_start"
+            android:text="Get Started"
+            android:textColor="@color/orange"
+            android:translationY="-40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativelayout_id"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

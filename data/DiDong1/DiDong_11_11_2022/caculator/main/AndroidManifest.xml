@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tdc.edu.vn.tracnghiem2022">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Cau1Activity" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Cau2Activity" android:label="Cau 2" android:screenOrientation="landscape"></activity>
+        <activity android:name=".Cau3Activity" android:label="Cau 3" android:screenOrientation="landscape"></activity>
+        <activity android:name=".Cau4Activity" android:label="Cau 4" android:screenOrientation="landscape"></activity>
+        <activity android:name=".Cau5Activity" android:label="Cau 5" android:screenOrientation="landscape"></activity>
+        <activity android:name=".Cau6Activity" android:label="Cau 6" android:screenOrientation="landscape"></activity>
+    </application>
+
+</manifest>

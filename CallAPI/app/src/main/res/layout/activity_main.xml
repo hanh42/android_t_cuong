@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_term"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="TERM:"
+        android:textSize="16sp"></TextView>
+
+    <TextView
+        android:id="@+id/txt_source"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Source:"
+        android:textColor="@android:color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/txt_usd"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="USD?VND:"
+        android:textColor="@android:color/black"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/main_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@color/cardview_shadow_start_color"
+        android:hint="CALL API"
+        android:textColor="@color/white"></Button>
+</LinearLayout>

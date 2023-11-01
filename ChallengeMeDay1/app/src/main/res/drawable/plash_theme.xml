@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/black" />
+        </shape>
+    </item>
+    <item
+        android:width="96dp"
+        android:height="96dp"
+        android:drawable="@drawable/con_chim"
+        android:gravity="center" />
+</layer-list>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LTDD</string>
+    <string name="lblA">A =</string>
+    <string name="lblResult">Result:</string>
+    <string name="lblB">B =</string>
+    <string name="lblChooseOperation">Choose Operation</string>
+    <string name="lblCong">+</string>
+    <string name="lblTru">-</string>
+    <string name="lblNhan">*</string>
+    <string name="lblChia">/</string>
+</resources>

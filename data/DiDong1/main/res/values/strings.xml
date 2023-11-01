@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="username">Username:</string>
+    <string name="edtUsernameHint">Enter username</string>
+    <string name="password">Password:</string>
+    <string name="edtPasswordHint">Enter password...</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnCancel">Cancel</string>
+</resources>

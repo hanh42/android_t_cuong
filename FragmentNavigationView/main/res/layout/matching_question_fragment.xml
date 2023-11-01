@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tdc.edu.vn.tracnghiem2022.TNKQActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        >
+        <TextView
+            android:id="@+id/txtViewCauHoi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/size_cau_hoi"
+            android:textColor="@color/color_cau_hoi"
+            android:text="@string/txt_trac_nghiem_2022"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="100dp">
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lua_chon_1"
+                android:textSize="@dimen/txtSizeLuaChon"
+                />
+            <Spinner
+                android:id="@+id/spin1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/sprinner_default"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="100dp">
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lua_chon_2"
+                android:textSize="@dimen/txtSizeLuaChon"
+                />
+            <Spinner
+                android:id="@+id/spin2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/sprinner_default"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="100dp">
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lua_chon_3"
+                android:textSize="@dimen/txtSizeLuaChon"
+                />
+            <Spinner
+                android:id="@+id/spin3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/sprinner_default"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ImageView_Main_ID"
+        android:layout_width="207dp"
+        android:layout_height="167dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="361dp"
+        android:src="@drawable/cherry" />
+
+    <TextView
+        android:fontFamily="@font/font1"
+        android:id="@+id/txt_heading"
+        android:layout_width="133dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/ImageView_Main_ID"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="-297dp"
+        android:layout_marginEnd="133dp"
+        android:gravity="center"
+        android:text="HEADING 1"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txt_content"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_below="@+id/txt_heading"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="0dp"
+        android:padding="16dp"
+        android:text="Pinocchio là một bộ phim truyền hình Hàn Quốc năm 2014 với diễn viên chính Lee Jong-sukvà Park Shin-hye. Bộ phim được phát sóng trên SBS vào thứ tư và thứ năm lúc 21:55 dài 20 tập và bắt đầu từ 12 tháng 11 năm 2014."
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

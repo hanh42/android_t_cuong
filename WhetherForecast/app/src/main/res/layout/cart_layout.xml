@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".activity.CartScreenActivity">
+
+    <!--    Top area-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+        <!--    RecyclerView area-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_card_screen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <!--Bottom area-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:weightSum="2">
+
+        <!--Bottom left area-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Tổng thành tiền:"
+                android:textColor="@color/green"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/total_cart_screen"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="360,000 đồng"
+                android:textColor="@color/black" />
+        </LinearLayout>
+        <!--Bottom right area-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|right">
+
+            <Button
+                android:id="@+id/btn_order_btn_cart_screen"
+                android:layout_width="87.25dp"
+                android:layout_height="41dp"
+                android:background="@drawable/customize_btn_add_cart_screen"
+                android:gravity="center"
+                android:text="Đặt món"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

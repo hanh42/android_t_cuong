@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cau5Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/lblQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="horizontal"
+
+        android:paddingTop="15dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <EditText
+                android:id="@+id/edt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:enabled="false"
+                android:maxLines="1"
+                />
+
+            <EditText
+                android:id="@+id/edt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:enabled="false"
+                android:maxLines="1"
+                />
+
+            <EditText
+                android:id="@+id/edt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:enabled="false"
+                android:maxLines="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Switch
+                android:id="@+id/swt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOff="Sai"
+                android:textOn="Dung"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/swt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="True"
+                android:textOff="False"
+                android:textSize="20sp"
+                />
+
+            <Switch
+                android:id="@+id/swt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="True"
+                android:textOff="False"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

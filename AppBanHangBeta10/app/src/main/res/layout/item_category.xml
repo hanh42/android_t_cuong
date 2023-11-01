@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="tengido"
+            type="tdc.edu.appbanhangbeta10.models.Category" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_8ssp"
+        app:cardCornerRadius="25dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_margin="@dimen/_10ssp"
+                android:id="@+id/ImageView_ID"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:src="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@{tengido.category}"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

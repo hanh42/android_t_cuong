@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuanLyNhanSu</string>
+    <string name="btn_them">Add</string>
+    <string name="btn_thoat">Cancer</string>
+    <string name="edt_so_thich_khac">So thich khac</string>
+    <string name="mnuSave">Save</string>
+    <string name="mnuDelete">Delete</string>
+    <string name="mnuEdit">Edit</string>
+    <string name="Hoppie_travel">Travel</string>
+</resources>
+

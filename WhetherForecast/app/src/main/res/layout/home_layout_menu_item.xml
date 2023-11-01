@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:elevation="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/img_menu_home_screen"
+            android:layout_width="190dp"
+            android:layout_height="165dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/anh_nhopng"
+            app:riv_corner_radius="10dp"
+            tools:ignore="InvalidId" />
+
+        <TextView
+            android:id="@+id/txt_name_menu_home_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cơm chiên dương châu"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_price_menu_home_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="40,000 đ"
+            android:textColor="@color/green" />
+
+        <LinearLayout
+            android:gravity="center|left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_star_24" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_star_24" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_star_24" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_star_24" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_star_24" />
+
+            <TextView
+                android:id="@+id/txt_qty_start_menu_home_screen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(5.0)" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_buy_menu_home_screen"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/customize_btn_buy_home_screen"
+            android:elevation="10dp"
+            android:text="Thêm vào giỏ hàng"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

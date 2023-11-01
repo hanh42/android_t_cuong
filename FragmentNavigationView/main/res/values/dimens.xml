@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">25sp</dimen>
+    <dimen name="txtSizeLuaChon">20sp</dimen>
+    <dimen name="size_cau_hoi">20sp</dimen>
+    <dimen name="header_height">176dp</dimen>
+</resources>

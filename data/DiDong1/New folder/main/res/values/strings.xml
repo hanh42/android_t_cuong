@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TracNghiem2022</string>
+    <string name="ten_nguoi_dung">Ten nguoi dung</string>
+    <string name="so_dien_thoai">So dien thoai</string>
+    <string name="dia_chi_email">Dia chi email</string>
+    <string name="drawerOpen">Open</string>
+    <string name="drawerClose">Close</string>
+    <string-array name="spiner_defaut">
+        <item>Gia tri 1</item>
+        <item>Gia tri 2</item>
+        <item>Gia tri 3</item>
+        <item>Gia tri 4</item>
+        <item>Gia tri 5</item>
+    </string-array>
+
+</resources>

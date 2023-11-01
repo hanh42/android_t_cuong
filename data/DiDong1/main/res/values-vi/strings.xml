@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Man hinh dang nhap</string>
+    <string name="btnCancel">Huy</string>
+    <string name="btnLogin">Dang nhap</string>
+    <string name="edtPasswordHint">Nhap mat khau</string>
+    <string name="edtUsernameHint">Nhap ten tai khoan</string>
+    <string name="password">Mat khau:</string>
+    <string name="username">Ten tai khoan:</string>
+</resources>
